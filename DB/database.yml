@@ -4,9 +4,9 @@ metadata:
   namespace: three-tier
   name: db-secret
 type: Opaque
-data:  
-  password: cGFzc3dvcmQxMjM=
+data:
   username: YWRtaW4=
+  password: cGFzc3dvcmQxMjM=
 ---
 apiVersion: apps/v1
 kind: Deployment
