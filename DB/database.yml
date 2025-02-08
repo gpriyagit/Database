@@ -6,7 +6,7 @@ metadata:
 type: Opaque
 data:  
   password: cGFzc3dvcmQxMjM=
-  username: dXNlcm5hbWUK=
+  username: YWRtaW4=
 ---
 apiVersion: apps/v1
 kind: Deployment
