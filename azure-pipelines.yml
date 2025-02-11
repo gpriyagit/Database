@@ -1,5 +1,5 @@
 pool:
-  name: 'Agentpool'
+  name: 'pool-agent'
 
 stages:
 - stage: Deploy
@@ -10,8 +10,8 @@ stages:
     - task: Kubernetes@1
       inputs:
         connectionType: 'Kubernetes Service Connection'
-        #azureSubscription: 'kube connection'
-        kubernetesServiceEndpoint: 'kube connection'
+        #azureSubscription: 'k8s connection'
+        kubernetesServiceEndpoint: 'k8s connection'
         azureResourceGroup: 'dev'
         kubernetesCluster: 'dev-cluster'
         namespace: 'three-tier'
