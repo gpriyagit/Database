@@ -12,7 +12,7 @@ stages:
         connectionType: 'Kubernetes Service Connection'
         #azureSubscription: 'k8s connection'
         kubernetesServiceEndpoint: 'k8s connection'
-        azureResourceGroup: 'test'
+        azureResourceGroup: 'dev'
         kubernetesCluster: 'dev-cluster'
         namespace: 'three-tier'
         command: 'apply'
